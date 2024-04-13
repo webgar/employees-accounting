@@ -1,0 +1,28 @@
+.appFilter {
+}
+.filterBlock {
+	margin-bottom: 20px;
+}
+.filterInput {
+	width: 100%;
+	padding: 8px;
+	border-radius: 3px;
+}
+
+.filterButtons button {
+	padding: 8px;
+	transition: background-color 0.3s ease;
+	border: 1px solid #fff;
+}
+.filterButtons button:hover {
+	background-color: #fff;
+	color: black;
+}
+.btn {
+	background-color: transparent;
+	color: #fff;
+}
+.btnActive {
+	background-color: #fff;
+	color: black;
+}

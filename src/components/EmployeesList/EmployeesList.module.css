@@ -1,0 +1,7 @@
+.employeesBlock {
+	margin-bottom: 20px;
+}
+.employeesList {
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,28 @@
+.addEmployee h2 {
+	margin-bottom: 20px;
+}
+.addEmployee form {
+	display: flex;
+	gap: 20px;
+}
+.addInput {
+	width: 30%;
+	padding: 8px;
+	border-radius: 3px;
+}
+.addButton {
+	padding: 8px;
+	background-color: transparent;
+	transition: background-color 0.3s ease;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 3px;
+}
+.addButton:hover {
+	background-color: #fff;
+	color: black;
+}
+.addButton:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}

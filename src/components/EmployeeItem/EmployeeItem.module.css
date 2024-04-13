@@ -1,0 +1,49 @@
+.employeesItem {
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	font-size: 18px;
+}
+.employeesItem.increase .employeesInfo,
+.employeesItem.increase .employeesSalary {
+	color: burlywood;
+}
+.employeesInfo {
+	flex: 1;
+	flex-basis: 50%;
+	text-align: left;
+	cursor: pointer;
+}
+.employeesSalary {
+	flex: 1;
+}
+.awardButton,
+.deleteButton {
+	padding: 8px;
+	border-radius: 3px;
+}
+.deleteButton {
+	margin: 0 15px;
+}
+.starIcon {
+	opacity: 0;
+}
+.like {
+	opacity: 1;
+	color: #ffd700;
+	font-size: 18px;
+}
+.deleteIcon {
+	font-size: 18px;
+	color: red;
+}
+.awardFillIcon {
+	color: #fca510;
+	font-size: 18px;
+}
+.awardFillIcon,
+.awardIcon {
+	font-size: 18px;
+}

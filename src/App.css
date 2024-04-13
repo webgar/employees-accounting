@@ -1,0 +1,33 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+.app > * {
+	width: 100%;
+}
+.header {
+	
+}
+.block {
+	background-color: rgb(19, 73, 104);
+	padding: 20px;
+	border-radius: 6px;
+	color: white;
+	margin-bottom: 20px;
+}
+.app-main {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-block {
+}
+.bottom-block {
+}
+.footer {
+}
